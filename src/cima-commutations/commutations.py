@@ -1,4 +1,3 @@
-#from config import CIMA_H
 from config import load_cima_h
 CIMA_H = load_cima_h()
 # Taux d'intérêt
@@ -7,7 +6,7 @@ i = 0.035
 v = 1/(1+i)
 
 def lx(x):
-    """Nombre de survivants é à l'âge x dans la TM.
+    """Nombre de survivants  à l'âge x dans la TM.
 
     Args:
         x: l'âge.
@@ -108,4 +107,4 @@ def nEx(x):
 
 
 if __name__ == '__main__':
-    print(Rx(45))
+    pass
