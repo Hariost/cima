@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from config import load_cima_h
 CIMA_H = load_cima_h()
 # Taux d'intérêt
